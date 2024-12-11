@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ClassAssignmentApp.Controllers
 {
+    //Manage access to Schedule display screens
     public class ScheduleMVCController : Controller
     {
         Uri baseAddress = new Uri("https://localhost:7008/api");

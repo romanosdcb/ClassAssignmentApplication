@@ -11,6 +11,7 @@ using System.Xml.Linq;
 
 namespace ClassAssignmentApp.Controllers
 {
+    //Manage CRUD operations for all Courses
     public class CourseMVCController : Controller
     {
         Uri baseAddress = new Uri("https://localhost:7008/api");

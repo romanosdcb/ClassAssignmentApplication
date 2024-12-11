@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ClassAssignmentApp.Controllers
 {
+    //Manage the Class sessions for both Instructors and Students
     public class ClassSessionMVCController : Controller
     {
         Uri baseAddress = new Uri("https://localhost:7008/api");

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ClassAssignmentApp.Controllers
 {
+    //Common Error Screen
     public class ErrorMessageController : Controller
     {
         Uri baseAddress = new Uri("https://localhost:7008/api");

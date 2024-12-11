@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ClassAssignmentApp.Controllers
 {
+    //Manage CRUD operations for Instructors
     public class InstructorMVCController : Controller
     {
         Uri baseAddress = new Uri("https://localhost:7008/api");

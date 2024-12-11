@@ -6,6 +6,7 @@ namespace ClassAssignmentApp.Controllers
 {
     public class HomeController : Controller
     {
+        //Main Menu
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)

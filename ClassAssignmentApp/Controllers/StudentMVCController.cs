@@ -6,6 +6,7 @@ namespace ClassAssignmentApp.Controllers
 {
     public class StudentMVCController : Controller
     {
+        //Manage CRUD operations for Students
         Uri baseAddress = new Uri("https://localhost:7008/api"); 
         private readonly HttpClient _client;
 
